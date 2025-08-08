@@ -18,11 +18,7 @@ export const TabSections = () => {
 
   // If on mobile, we'll handle the tab switching in FeaturedGamesCards
   if (isMobile) {
-    return (
-      <div className="mt-4">
-        <GamesList games={filteredGames} />
-      </div>
-    )
+    return null
   }
   
   return (
