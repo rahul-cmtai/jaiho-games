@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import { gamesData, Game } from '../../../data/gamesData'
-import { Header } from '../../../components/header'
 import { DisclaimerNotice } from '../../../components/DisclaimerNotice'
 import { ScrollToTop } from '../../../components/ScrollToTop'
 import { useIsMobile } from '../../../hooks/use-mobile'
@@ -60,9 +59,6 @@ export default function AppDetailsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <Header />
-
       {/* Page Title Banner */}
       <div className="bg-white border-b border-gray-200 py-4">
         <div className="max-w-7xl mx-auto px-4">

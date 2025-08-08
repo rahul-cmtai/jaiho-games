@@ -19,7 +19,7 @@ export const gamesData: Game[] = [
     category: "all",
     bonus: "₹581",
     minWithdraw: "₹100",
-    image: "/app-images/share-slots.png",
+    image: "/app-images/share_slot.png",
     description: "Bonus Upto ₹581",
     minWithdrawText: "Min. Withdraw ₹100",
     downloadLink: "https://onlyjaihogames.com/",
